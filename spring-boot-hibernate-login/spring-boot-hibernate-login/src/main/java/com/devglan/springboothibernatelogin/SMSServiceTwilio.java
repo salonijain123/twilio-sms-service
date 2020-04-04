@@ -9,8 +9,8 @@ import com.twilio.rest.api.v2010.account.Message;
 @Service
 public class SMSServiceTwilio implements SMSService{
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACe51cc8ea191455e8126f7570cd62bc4e";
-    public static final String AUTH_TOKEN = "68fbdab94ccca585b8c70cbfc1ee6dcc";
+    public static final String ACCOUNT_SID = "";
+    public static final String AUTH_TOKEN = "";
 
     @Override
     public void sendSMS() {
